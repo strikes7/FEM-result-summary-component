@@ -1,0 +1,16 @@
+@media screen and (max-width: 40em) {
+  .summary {
+    grid-template-columns: 1fr;
+    border-radius: 1.5rem;
+    border-start-end-radius: 0;
+    border-start-start-radius: 0;
+    box-shadow: 0 0.5rem 1rem hsl(222, 58.31%, 91.56%);
+  }
+  .summary__results {
+    border-start-end-radius: 0;
+    border-start-start-radius: 0;
+  }
+  .summary__results__paragraph {
+    padding-inline: 0;
+  }
+}

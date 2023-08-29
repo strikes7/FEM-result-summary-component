@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Result summary Component</title>
+    <link
+      rel="shortcut icon"
+      href="images/favicon-32x32.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="css/media-queries/small-sreen.css"
+      media="screen and (max-width: 40em)"
+    />
+  </head>
+  <body>
+    <article class="summary">
+      <div class="summary__results">
+        <h4 class="summary__results__title">Your Result</h4>
+        <div class="score-wrapper">
+          <p class="summary__results__score">00</p>
+          <p class="summary__results__score--of">of 100</p>
+        </div>
+        <h5 class="summary__results__sub-title">Great</h5>
+        <p class="summary__results__paragraph">
+          You scored higher than 65% of the people who have taken these tests.
+        </p>
+      </div>
+      <div class="summary__stats">
+        <h4 class="summary__stats__title">Summary</h4>
+        <ul class="summary__stats__types">
+          <li class="summary__stats__types--reaction">
+            <p class="summary__stat--name">Reaction</p>
+            <p class="summary__stat--score">
+              <span class="my-score">00</span> / 100
+            </p>
+          </li>
+          <li class="summary__stats__types--memory">
+            <p class="summary__stat--name">Memory</p>
+            <p class="summary__stat--score">
+              <span class="my-score">00</span> / 100
+            </p>
+          </li>
+          <li class="summary__stats__types--verbal">
+            <p class="summary__stat--name">Verbal</p>
+            <p class="summary__stat--score">
+              <span class="my-score">00</span> /100
+            </p>
+          </li>
+          <li class="summary__stats__types--visual">
+            <p class="summary__stat--name">Visual</p>
+            <p class="summary__stat--score">
+              <span class="my-score">00</span> / 100
+            </p>
+          </li>
+        </ul>
+        <button class="btn-continue" type="button">Continue</button>
+      </div>
+    </article>
+
+    <script src="js/script.js"></script>
+  </body>
+</html>

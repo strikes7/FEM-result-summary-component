@@ -1,0 +1,19 @@
+@use "../colors" as *;
+
+@media screen and (max-width: 40em) {
+  .summary {
+    grid-template-columns: 1fr;
+    border-radius: 1.5rem;
+    border-start-end-radius: 0;
+    border-start-start-radius: 0;
+    box-shadow: 0 0.5rem 1rem $clr-box-shadow;
+
+    &__results {
+      border-start-end-radius: 0;
+      border-start-start-radius: 0;
+      &__paragraph {
+        padding-inline: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,13 @@
+@use "colors" as *;
+@use "components/result-sumary";
+@use "fonts/primary-fonts";
+
+body {
+  min-block-size: 100vh;
+  display: flex;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hanken Grotesk", sans-serif;
+  background-color: $clr-bg-duo;
+}
